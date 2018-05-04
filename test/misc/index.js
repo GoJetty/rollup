@@ -1,3 +1,4 @@
+/* eslint-disable */
 const assert = require('assert');
 const path = require('path');
 const rollup = require('../../dist/rollup');
