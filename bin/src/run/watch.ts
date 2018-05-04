@@ -32,7 +32,7 @@ export default function watch(
 	command: any,
 	silent = false
 ) {
-	const isTTY = Boolean(process.stderr.isTTY);
+	const isTTY = true; //Boolean(process.stderr.isTTY);
 
 	const screen = alternateScreen(isTTY);
 	screen.open();
@@ -136,10 +136,10 @@ export default function watch(
 	process.on('uncaughtException', close);
 
 	// only listen to stdin if it is a pipe
-	if (!process.stdin.isTTY) {
-		process.stdin.on('end', close); // in case we ever support stdin!
-		process.stdin.resume();
-	}
+	// if (!process.stdin.isTTY) {
+	// 	process.stdin.on('end', close); // in case we ever support stdin!
+	// 	process.stdin.resume();
+	// }
 
 	function close(err: Error) {
 		if (err) {
