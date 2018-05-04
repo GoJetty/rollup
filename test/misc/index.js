@@ -1,3 +1,4 @@
+/* eslint-disable */
 const assert = require('assert');
 const rollup = require('../../dist/rollup');
 const { executeBundle, loader } = require('../utils.js');
