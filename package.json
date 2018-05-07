@@ -1,6 +1,6 @@
 {
   "name": "rollup-no-tty-check",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Next-generation ES6 module bundler",
   "main": "dist/rollup.js",
   "module": "dist/rollup.es.js",
@@ -33,7 +33,7 @@
     "perf:init": "node scripts/perf-init.js",
     "perf:debug": "node --inspect-brk scripts/perf-debug.js"
   },
-  "repository": "rollup/rollup",
+  "repository": "GoJetty/rollup",
   "keywords": [
     "modules",
     "bundler",
@@ -48,9 +48,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rollup/rollup/issues"
+    "url": "https://github.com/GoJetty/rollup/issues"
   },
-  "homepage": "https://github.com/rollup/rollup",
+  "homepage": "https://github.com/GoJetty/rollup",
   "dependencies": {
     "@types/estree": "0.0.39",
     "@types/node": "*"
