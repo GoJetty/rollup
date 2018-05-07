@@ -1,6 +1,6 @@
 {
   "name": "rollup-no-tty-check",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Next-generation ES6 module bundler",
   "main": "dist/rollup.js",
   "module": "dist/rollup.es.js",
@@ -19,7 +19,7 @@
     "perf:init": "node scripts/perf-init.js",
     "perf:debug": "node --inspect-brk scripts/perf-debug.js"
   },
-  "repository": "rollup/rollup",
+  "repository": "GoJetty/rollup",
   "keywords": [
     "modules",
     "bundler",
